@@ -3,10 +3,10 @@ import tweepy
 import time
 
 
-ckey = "zBP1UegoKIMi3Swwr3L859D5h"
-csecret = "JzSXepx7VZHygL8RpRG17okUsw8NtDk72wNjPS1b02FEEHB1ar"
-asecret = "A8Ij8pmsqQJfcwoXd8HHmuo82oqLEIKSZhsll8qpHmJiE"
-atoken = "773297630839316480-yx91y4bX6nXlQINxtmXgiNNlRaLWX5Z"
+ckey = "Client Key"
+csecret = "Client Secret"
+asecret = "Authentication Secret"
+atoken = "Authentication Token"
 
 auth = tweepy.OAuthHandler(ckey,csecret)
 auth.set_access_token(atoken,asecret)
